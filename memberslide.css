@@ -1,0 +1,120 @@
+body{
+    color: white;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+*{
+    margin:0;
+}
+html,body{
+    height:100%;
+}
+.master-member-container, .member-container{
+    display: flex;
+}
+.master-member-container{
+    flex-direction: row;
+    width: 100%;
+    height:100%;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+}
+@media only screen and (min-width: 1000px) {
+    .member-slide{
+        height:100%;
+    }
+    .member-container{
+        width:27.5%;
+    }
+}
+.member-slide{
+    background-color: #242424;
+    position: relative;
+    overflow:hidden;
+}
+.members-moving-text{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    font-size: clamp(1rem, 2.3vw, 4rem);
+    text-align: center;
+    width: 100%;
+    font-style:italic;
+}
+
+#moving-text-top, #moving-text-top-secondary{
+    top:1vh;
+}
+#moving-text-bottom,#moving-text-bottom-secondary {
+    bottom:1vh;
+}
+
+#moving-text-bottom-secondary, #moving-text-top-secondary{
+    right: -100%;
+}
+
+.member-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color: #48138b;
+    margin-inline:1em;
+    height:80vh;
+    
+}
+.member{
+    height:30%;
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+.member-image{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    height:75%;
+}
+.member-image img{
+    height:100%;
+}
+.member-name, .member-role{
+    text-align: center;
+    width: 75%;
+}
+.member-name{
+    color: rgb(255, 255, 255);
+    font-family: "Gilmer Font", sans-serif;
+    font-size: clamp(0.75rem, 1vw, 1.5rem);
+    font-weight: 100;
+}
+.member-role{
+    color: rgb(255, 255, 255);
+    font-family: "Eurostile Extended", sans-serif;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    font-weight: 600;
+}
+.first-container{
+    border-radius: 0 100px 100px 0;
+}
+.second-container{
+    border-radius: 100px;
+}
+.third-container{
+    border-radius: 100px 0 0 100px;
+}
+@media only screen and (max-width: 1000px) {
+    .master-member-container{
+        flex-direction: column;
+    }
+    .member-slide{
+        padding-block: 10%;
+    }
+    .member-container{
+        margin-block:1rem;
+        width:50%;
+    }
+}

@@ -1,0 +1,88 @@
+@keyframes toBlack {
+  from {
+    background: rgba(0, 0, 0, 0);
+  }
+  to {
+    background: rgba(0, 0, 0, 0.75);
+  }
+}
+@keyframes popupWidth {
+  from {
+    font-size: 0;
+  }
+  to {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .home-slide {
+    background-image: url("./homebackground-small.webp") !important;
+    background-position: bottom !important;
+  }
+  .home-text-container {
+    justify-content: center !important;
+    padding-top: 0.2em !important;
+    width: 100vw !important;
+    text-align: center;
+    font-size: 1.3rem !important;
+    animation-name: toBlack;
+    animation-duration: 3s;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  .revealing-text {
+    font-size: 1.2rem;
+  }
+}
+.home-slide {
+  height: 100vh;
+  background-image: url("./homebackground.webp");
+  background-position: right;
+}
+
+.home-text-container {
+  font-family: roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding: 2em;
+  font-size: clamp(2rem, 3vw, 5rem);
+  width: -moz-max-content;
+  width: max-content;
+}
+.home-text-container div {
+  padding-block: 0.25em;
+}
+
+.revealing-text {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: revealText 1.75s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: #540AB9;
+  margin-right: auto;
+}
+
+.revealing-text::before {
+  content: "RACING AT THE SPEED OF LIGHT";
+  position: absolute;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1px #540AB9;
+}
+
+.content {
+  background: red;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+@keyframes revealText {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}/*# sourceMappingURL=homeslide.css.map */

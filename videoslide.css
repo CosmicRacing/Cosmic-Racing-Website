@@ -1,0 +1,30 @@
+.video-slide {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+}
+.video-slide iframe {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+.video-slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.video-slide img:hover {
+  cursor: pointer;
+}
+.video-slide svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: rgb(255, 255, 255);
+  width: 154px;
+  height: 154px;
+}/*# sourceMappingURL=videoslide.css.map */

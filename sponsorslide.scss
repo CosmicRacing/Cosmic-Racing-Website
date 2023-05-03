@@ -1,0 +1,54 @@
+.sponsor-slide{
+    height:100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-image: url("./sponsorsbackground.webp");
+    background-color: rgb(36, 36, 36);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:5%;
+    padding-bottom:10%;
+    overflow: hidden;
+    position: relative;
+    .sponsor-title{
+        text-align: center;
+        padding-top: 2rem;
+        font-size: clamp(2rem, 3.5vw, 5rem);
+        font-weight: bold;
+    }
+    .sponsor-image-container-outer{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .sponsor-image{
+            width: clamp(100px,7.5vw,250px);
+            margin: 2em;
+        }
+        .sponsor-image-container-inner{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .sponsor-image-container-outer{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .sponsor-image{
+                width: 75%;
+            }
+        }
+    }
+    @media only screen and (max-width: 1000px) {
+        .sponsor-image-container-outer{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
