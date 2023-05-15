@@ -37,6 +37,10 @@
   max-width: 65%;
 }
 
+#spline{
+  max-width:100%;
+}
+
 @media only screen and (max-width: 800px) {
   .car-info-slide .car-info-div {
     flex-direction: column;
