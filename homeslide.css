@@ -24,13 +24,13 @@
     padding-top: 0.2em !important;
     width: 100vw !important;
     text-align: center;
-    font-size: 0.9rem !important;
+    font-size: clamp(0.9rem, 2.5vw, 1.3rem) !important;
     animation-name: toBlack;
     animation-duration: 3s;
     background: rgba(0, 0, 0, 0.75);
   }
   .revealing-text {
-    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 2.5vw, 1.2rem);
   }
 }
 .home-slide {
@@ -46,7 +46,7 @@
   height: 100vh;
   justify-content: center;
   padding: 2em;
-  font-size: clamp(2rem, 3vw, 5rem);
+  font-size: clamp(1.5rem, 2.5vw, 4rem);
   width: -moz-max-content;
   width: max-content;
 }
