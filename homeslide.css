@@ -24,13 +24,13 @@
     padding-top: 0.2em !important;
     width: 100vw !important;
     text-align: center;
-    font-size: 1.3rem !important;
+    font-size: 0.9rem !important;
     animation-name: toBlack;
     animation-duration: 3s;
     background: rgba(0, 0, 0, 0.75);
   }
   .revealing-text {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 }
 .home-slide {

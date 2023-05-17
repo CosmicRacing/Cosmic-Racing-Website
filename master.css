@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "eub";
+  src: url("./fonts/eurostile-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "eux2";
+  src: url("./fonts/Eurostile-ExtendedTwo.woff") format("woff");
+}
+@font-face {
+  font-family: "eubx2";
+  src: url("./fonts/Eurostile-BoldExtendedTwo.woff") format("woff");
+}
+@font-face {
+  font-family: "eu";
+  src: url("./fonts//eurostile.woff") format("woff");
+}
+@font-face {
+  font-family: "gilmer";
+  src: url("./fonts/Gilmer-Regular.woff") format("woff");
+}
+body {
+  color: white;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  background-color: rgb(72, 19, 139);
+}
+
+p, span {
+  font-family: gilmer, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: eu, Arial, Helvetica, sans-serif;
+}
+
+.eurostile {
+  font-family: eu, Arial, Helvetica, sans-serif !important;
+}
+
+.eurostile-bold {
+  font-family: eub, "Times New Roman", Times, serif !important;
+}
+
+.eurostile-bold-extended {
+  font-family: eubx2, "Times New Roman", Times, serif !important;
+}
+
+.eurostile-extended {
+  font-family: eux, "Times New Roman", Times, serif !important;
+}
+
+.gilmer {
+  font-family: gilmer, Arial, Helvetica, sans-serif !important;
+}/*# sourceMappingURL=master.css.map */
