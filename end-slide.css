@@ -13,7 +13,7 @@
   bottom: 0;
   text-align: center;
 }
-.end-slide footer img {
+.end-slide footer svg {
   width: 50px;
   height: 50px;
   margin-inline: 15px;
@@ -25,8 +25,8 @@
   align-items: center;
 }
 .end-slide .end-text {
-  width: 25%;
-  font-size: clamp(2rem, 1.75vw, 2.5rem);
+  width: 35%;
+  font-size: clamp(1.5rem, 1.75vw, 2.5rem);
 }
 .end-slide .end-image {
   width: 25%;
