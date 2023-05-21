@@ -1,5 +1,5 @@
 .end-slide{
-    height:100svh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     position: relative;
@@ -29,6 +29,9 @@
     }
     .end-image{
         width:25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         img{
             width: 100%;
         }
@@ -39,6 +42,7 @@
     .end-container{
         flex-direction: column;
         justify-content: space-evenly;
+        margin-bottom: 20% !important;
     }
     .end-text{
         width: 65% !important;
@@ -46,5 +50,9 @@
     }
     .end-image{
         width: 65% !important;
+        max-width: 350px;
+    }
+    footer{
+        bottom:10% !important;
     }
 }

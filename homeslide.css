@@ -32,9 +32,6 @@
   .revealing-text {
     font-size: clamp(0.8rem, 2.5vw, 1.2rem);
   }
-  .scroll-arrow{
-    bottom:7.5% !important;
-  }
 }
 .home-slide {
   height: 100vh;
@@ -42,7 +39,6 @@
   background-position: right;
   position: relative;
 }
-
 
 .home-text-container {
   font-family: roboto, sans-serif;
@@ -90,17 +86,10 @@
   right: 0;
   bottom: 0;
   text-align: center;
-  width: min-content;
 }
-
-
 .scroll-arrow img {
   height: 50px;
   width: 50px;
-}
-
-.scroll-arrow:hover{
-  cursor: pointer;
 }
 
 @keyframes revealText {
