@@ -37,6 +37,7 @@
   height: 100vh;
   background-image: url("./homebackground.webp");
   background-position: right;
+  position: relative;
 }
 
 .home-text-container {
@@ -76,6 +77,24 @@
   height: 200px;
   width: 200px;
   position: relative;
+}
+
+.scroll-arrow {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  width: min-content;
+}
+.scroll-arrow img {
+  height: 50px;
+  width: 50px;
+}
+
+.scroll-arrow:hover{
+  cursor: pointer;
 }
 
 @keyframes revealText {
