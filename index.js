@@ -24,7 +24,11 @@ function videoClicked(){
     element.style.display = "none";
     var videoplayer = document.getElementById("teamvideo").src += "?autoplay=1";
 }
-
+gsap.from(".info-div", {duration: 1.5, opacity:'0' , scrollTrigger:".info-div", ease:CustomEase.create("custom", "M0,0,C0.212,0.368,0.514,0.042,0.565,0.775,0.581,1.018,0.78,1,1,1")});
+gsap.from(".first-container", {duration: 2, y:'50%' , scrollTrigger:".first-container", ease: "power4.out"});
+gsap.from(".second-container", {duration: 2, y:'50%' , scrollTrigger:".second-container", ease: "power4.out"});
+gsap.from(".third-container", {duration: 2, y:'50%' , scrollTrigger:".third-container", ease: "power4.out"});
+gsap.from(".sponsor-image-container-outer", {duration: 2, x:'50%' , scrollTrigger:".sponsor-image-container-outer", ease: "power4.out"});
 /*var container = document.getElementsByClassName("sponsor-image-container")[0];
 let i = 0;
 setInterval(function() {
