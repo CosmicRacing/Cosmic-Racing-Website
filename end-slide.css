@@ -26,7 +26,7 @@
 }
 .end-slide .end-text {
   width: 35%;
-  font-size: clamp(1.5rem, 1.75vw, 2.5rem);
+  font-size: clamp(1.3rem, 1.75vw + 0.5rem, 2.5rem);
 }
 .end-slide .end-image {
   width: 25%;
@@ -45,7 +45,7 @@
     margin-bottom: 20% !important;
   }
   .end-text {
-    width: 65% !important;
+    width: 85% !important;
     text-align: center;
   }
   .end-image {
