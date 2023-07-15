@@ -52,4 +52,5 @@ button {
 
 .hidden {
   position: absolute;
+  top: -100%;
 }/*# sourceMappingURL=pi.css.map */
