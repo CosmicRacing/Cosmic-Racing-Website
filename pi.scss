@@ -26,7 +26,6 @@ body{
     color: white;
 }
 button{
-    position: absolute;
     color: transparent; 
     background-color: transparent; 
     border-color: transparent; 
@@ -52,4 +51,7 @@ button{
     transition: all 0.5s ease;  
     //position: absolute;
     transform: scale(1);
+}
+.absolute{
+    position: absolute;
 }
