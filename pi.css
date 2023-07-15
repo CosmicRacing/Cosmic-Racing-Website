@@ -18,7 +18,7 @@ body {
   height: 100vh;
 }
 
-#member-container {
+.member-container {
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -30,10 +30,10 @@ body {
 }
 
 button {
-  color: transparent;
-  background-color: transparent;
-  border-color: transparent;
-  cursor: default;
+  /*color: transparent; 
+  background-color: transparent; 
+  border-color: transparent; 
+  cursor: default;*/
 }
 
 .transform-first {
@@ -47,5 +47,9 @@ button {
 }
 
 .absolute {
+  position: absolute;
+}
+
+.hidden {
   position: absolute;
 }/*# sourceMappingURL=pi.css.map */
