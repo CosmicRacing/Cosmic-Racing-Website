@@ -20,6 +20,7 @@ body {
 
 .member-container {
   width: 25%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,21 +30,20 @@ body {
   color: white;
 }
 
-button {
-  color: transparent;
-  background-color: transparent;
-  border-color: transparent;
-  cursor: default;
-}
+button { /*
+color: transparent; 
+background-color: transparent; 
+border-color: transparent; 
+cursor: default;*/ }
 
 .transform-first {
   transition: all 0.5s ease;
-  transform: scale(0);
+  transform: translate(0, -100%);
 }
 
 .transform-second {
   transition: all 0.5s ease;
-  transform: scale(1);
+  transform: translate(0);
 }
 
 .absolute {
@@ -52,5 +52,5 @@ button {
 
 .hidden {
   position: absolute;
-  top: -100%;
+  bottom: 100%;
 }/*# sourceMappingURL=pi.css.map */
