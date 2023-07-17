@@ -37,13 +37,24 @@ border-color: transparent;
 cursor: default;*/ }
 
 .transform-first {
-  transition: all 0.5s ease;
-  transform: translate(0, -100%);
+  /*-webkit-transition: all 0.5s ease;  
+  -moz-transition: all 0.5s ease;   
+  -o-transition: all 0.5s ease;    
+  -ms-transition: all 0.5s ease;  
+  transition: all 0.5s ease;  
+  //position: absolute;
+  transform: translate(0,-100%);*/
 }
 
 .transform-second {
-  transition: all 0.5s ease;
-  transform: translate(0);
+  /*
+  -webkit-transition: all 0.5s ease;  
+  -moz-transition: all 0.5s ease;   
+  -o-transition: all 0.5s ease;    
+  -ms-transition: all 0.5s ease;  
+  transition: all 0.5s ease;  
+  //position: absolute;
+  transform: translate(0);*/
 }
 
 .absolute {

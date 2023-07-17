@@ -14,7 +14,7 @@ async function loadMember(index){
         memberContainer.classList.remove("hidden");
         memberContainer.classList.remove("transform-first");
         memberContainer.classList.add("transform-second");
-        await sleep(500)
+        //await sleep(500)
         memberContainer = document.getElementsByClassName("member-container")[currentMember];
         memberContainer.classList.add("hidden");
         currentMember = index;
