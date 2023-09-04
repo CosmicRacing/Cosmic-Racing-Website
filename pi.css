@@ -19,7 +19,7 @@ body {
 }
 
 .member-container {
-  width: 25%;
+  width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -39,6 +39,11 @@ button {
 
 .member-name {
   white-space: nowrap;
+  font-size: 3em;
+}
+
+.member-text {
+  font-size: 2em;
 }
 
 .transform-first {
