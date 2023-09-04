@@ -30,11 +30,12 @@ body {
   color: white;
 }
 
-button { /*
-color: transparent; 
-background-color: transparent; 
-border-color: transparent; 
-cursor: default;*/ }
+button {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: default;
+}
 
 .transform-first {
   /*-webkit-transition: all 0.5s ease;  
